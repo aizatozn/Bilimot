@@ -1,66 +1,90 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">KTMU</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="yemekhane.html">Yemekhane</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kiraat.html">Kıraathane</a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Menü
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="bugun.html">Bugün</a></li>
-                <li><a class="dropdown-item" href="bugun.html">Yarın</a></li>
-                <li><a class="dropdown-item" href="bugun.html">Bir ay</a></li>
-              </ul>
-            </li>
-          </ul>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bilimot - бийиктикти биз менен багындыр!</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
+  <meta name="description"
+    content="Информационно-развлекательный портал для программистов! Обучающие курсы, новости в сфере IT и многое другое">
+  <meta name="keywords" content="itProgerr, it, курсы, новости, уроки">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link rel="stylesheet" href="fontawesome.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+  <!-- <link href="css/brands.css" rel="stylesheet"> -->
+  <!-- <link href="css/solid.css" rel="stylesheet"> -->
+</head>
+<body>
+  <div id="wrapper">
+    <div id="content">
+      <header>
+        <div id="logo">
+          <a href="file:///C:/Users/pc/Desktop/itProgerr/index.html" title="Башкы бет">
+            <img src="img/logo.png" width="120" height="120" title="file:///C:/Users/pc/Desktop/itProgerr/index.html"
+              alt="file:///C:/Users/pc/Desktop/itProgerr/index.html">
+            <span>Bilimot</span>
+          </a>
         </div>
-      </div>
-    </nav>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/yemekhane.jpg" class="d-block w-100" alt="...">
+        <div id="about">
+          <a href="" title="Билимоттон жардам">Жардам</a>
+          <a href="" title="Билимот менен байланышуу">Кайтарым байланыш</a>
         </div>
-        <div class="carousel-item">
-          <img src="images/chay.jpg" class="d-block w-100" alt="...">
+        <div id="reg_auth">
+          <a href="" title="Колдонуучунун жеке кабинетине кирүү">
+            <div id="btn">
+              Кирүү
+            </div>
+          </a>
+          <a href="" title="Сайтка катталуу">
+            <div id="btn">
+              Катталуу
+            </div>
+          </a>
         </div>
-        <div class="carousel-item">
-          <img src="images/kantin.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      </header>
+      <nav>
+          <div id="menuShow"><i class="fa fa-bars" aria-hidden="true"></i></div>
+          <div id="hideMenu">
+              <a href="">IT новости</a>
+              <a href="">Видеокурсы</a>
+              <a href="">Сайты на заказ</a>
+              <a href="">Форум</a>
+              <a href="">IT задачи</a>
+          </div>
+          <div id="search">
+              <span>Поиск</span>
+              <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+      </nav>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+    <footer>
+      <div id="site_name">
+        <span>Bilimot</span>
+      </div>
+      <div id="clear"></div>
+      <div id="footer_menu>">
+        <a href="" title="Билимоттон жардам">Жардам</a>
+        <a href="" title="Проектти колдоо">Проектти колдоо</a>
+        <a href="" title="Билимот менен байланышуу">Кайтарым байланыш</a>
+      </div>
+      <div id="rights">
+        <a href="">Бардык укуктар корголгон &copy; <?&=date ('Y')?></a>
+      </div> 
+      <div id="social">
+        <a href="" title="Группа Вк"><i class="fa-brands fa-vk"></i></a>
+        <a href="" title="Группа FaceBook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="" title="Мы в Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="" title="Основной канал на YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="" title="Google+"><i class="fa-brands fa-google-plus-g"></i></a>
+      </div>
+    </footer>
+  </div>
+  <!-- <i class="fa-solid fa-user"></i> -->
+  <!-- uses solid style -->
+  <!-- <i class="fa-brands fa-github-square"></i> -->
+  <!-- uses brand style -->
+</body>
+
 </html>
